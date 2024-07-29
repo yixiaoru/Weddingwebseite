@@ -366,6 +366,7 @@ textarea.form__input {
     font-family: "Caveat";
 }
 
+
 .heading--centered::after {
     content: "";
     display: block;
@@ -376,6 +377,47 @@ textarea.form__input {
     margin-left:auto;
     margin-right:auto;
 }
+
+
+.heading--centered-hotel {
+    color: rgb(238, 108, 79);
+    text-align: center;
+    font-family: "Caveat";
+    font-size: 1.8rem;
+
+ }
+
+ 
+ @media (min-width: 550px) {
+    
+    .heading--centered-hotel{
+        font-size: 2.5rem;
+}
+
+}
+
+
+
+.heading--centered-hotel::after {
+    content: "";
+    display: block;
+    height: 0.1rem;
+    width: 20rem;
+    background-color: rgb(238, 108, 79);
+    margin-top: 1.2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (min-width: 630px) {
+    
+    .heading--centered-hotel::after{
+        width: 33rem;
+}
+
+}
+
+
 
 .heading--adventures {
     font-size: 2.8rem;
