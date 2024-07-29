@@ -371,11 +371,19 @@ textarea.form__input {
     content: "";
     display: block;
     height: 0.1rem;
-    width: 35rem;
+    width: 20rem;
     background-color: rgb(238, 108, 79);
     margin-top: 1.2rem;
     margin-left:auto;
     margin-right:auto;
+}
+
+@media (min-width: 630px) {
+    
+    .heading--centered-hotel::after{
+        width: 33rem;
+}
+
 }
 
 
