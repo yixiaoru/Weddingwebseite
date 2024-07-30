@@ -140,6 +140,7 @@ textarea.form__input {
     text-align: center;
 }
 
+
 .header {
     padding-bottom: 2rem;
     background-repeat: no-repeat;
@@ -266,7 +267,8 @@ textarea.form__input {
 }
 @media (min-width: 990px) {
     .header__heading {
-        padding-top: 10rem;
+        font-size: 6rem;
+
     }
 }
 
@@ -377,7 +379,7 @@ textarea.form__input {
 
 
 .heading--centered {
-    color: rgb(238, 108, 79);
+    color: rgb(1, 65, 83);
     text-align: center;
     font-family: "Caveat";
 }
@@ -388,7 +390,7 @@ textarea.form__input {
     display: block;
     height: 0.1rem;
     width: 18rem;
-    background-color: rgb(238, 108, 79);
+    background-color: rgb(1, 65, 83);
     margin-top: 1.2rem;
     margin-left:auto;
     margin-right:auto;
@@ -457,9 +459,38 @@ textarea.form__input {
     color: rgb(247, 191, 7);
     text-align: center;
     font-family: "Caveat";
+
+}
+
+.heading--background {
+    display:block;
+    background-color: rgba(112, 47, 9, 0.25);
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
+
+
+.heading--adventures::after {
+    content: "";
+    display: block;
+    height: 0.1rem;
+    width: 17rem;
+    background-color: rgb(247, 191, 7);
+    margin-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (min-width: 980px) {
+    
+    .heading--adventures::after{
+        width: 30rem;
+}
+
+}
 
 
 
@@ -1036,7 +1067,7 @@ textarea.form__input {
 @media (min-width: 700px) {
     .parts {
         background-image: 
-        linear-gradient(90deg,  rgba(253, 237, 237, 0.75),rgba(150, 150, 150, 0.75)),
+        linear-gradient(90deg,  rgba(216, 213, 213, 0.35),rgba(216, 213, 213, 0.35)),
             url("../images/parts/Herbst_halb.jpg");
         background-attachment:
             fixed,
@@ -1049,7 +1080,7 @@ textarea.form__input {
 @media (min-width: 1600px) {
     .parts {
         background-image: 
-        linear-gradient(90deg,  rgba(219, 219, 177, 0.55),rgba(214, 209, 158, 0.55)),
+        linear-gradient(90deg,  rgba(216, 213, 213, 0.35),rgba(216, 213, 213, 0.35)),
             url("../images/parts/Herbst.jpg");
         background-attachment:
             fixed,
@@ -1109,7 +1140,7 @@ textarea.form__input {
     margin: 0;
     font-size: 1.5rem;
     padding-top: 3rem;
-    color: #014153;
+    color: rgb(1, 65, 83);
     text-align: center;
     font-family: "Caveat";
 }
