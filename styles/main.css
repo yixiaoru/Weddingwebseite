@@ -25,6 +25,7 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
@@ -272,13 +273,28 @@ textarea.form__input {
 .header__heading::after {
     content: "";
     display: block;
-    width: 40rem;
+    width: 18rem;
     height: 0.1rem;
     background-color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
+
+@media (min-width: 440px) {
+    .header__heading::after {
+        width: 25rem;
+    }
+}
+
+
+@media (min-width: 990px) {
+    .header__heading::after {
+        width: 30rem;
+    }
+}
+
+
 .header__sub-heading {
     font-size: 1.6rem;
     color: white;
@@ -371,12 +387,21 @@ textarea.form__input {
     content: "";
     display: block;
     height: 0.1rem;
-    width: 20rem;
+    width: 18rem;
     background-color: rgb(238, 108, 79);
     margin-top: 1.2rem;
     margin-left:auto;
     margin-right:auto;
 }
+
+@media (min-width: 360px) {
+    
+    .heading--centered::after{
+        width: 20rem;
+}
+
+}
+
 
 @media (min-width: 630px) {
     
@@ -787,6 +812,7 @@ textarea.form__input {
     padding-bottom: 5rem;
     padding-top: 4rem;
 
+
 }
 
 @media (min-width: 62em) {
@@ -806,14 +832,16 @@ textarea.form__input {
     .einladung {
         padding-bottom: 0.1rem;
         padding-top: 0.1rem;
+        background-size: 100% 100%, 110% 100%;
         background-attachment: local, scroll;
     }
 }
 
 @media (min-width: 1100px) {
     .einladung {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        background-size: 100% 100%, 110% 100%;
 
     }
 }
@@ -823,9 +851,11 @@ textarea.form__input {
 @media (min-width: 1700px) {
     .einladung {
         padding-bottom: 5rem;
-        padding-top: 4rem;
+        padding-top: 5rem;
+        background-size: 100% 100%, 110% 100%;
         background-attachment: local, fixed;
-        height: 100vh;
+        
+
     }
 }
 
@@ -841,8 +871,8 @@ textarea.form__input {
 .einladung__backgournd{
     background-color: rgba(0, 0, 0, 0.2);
     min-width: 10rem; 
-    margin-top:15rem;
-    margin-bottom:8rem;
+    margin-top:25rem;
+    margin-bottom:3rem;
 
     
     
@@ -861,9 +891,10 @@ textarea.form__input {
     .einladung__backgournd{
 
         
-        min-width: 23rem;
-        margin-top:6rem;
-        margin-bottom:0.5rem;
+        min-width: 27rem;
+        margin-top:7rem;
+        margin-bottom:7rem;
+
     }
 }
 
@@ -872,8 +903,8 @@ textarea.form__input {
 
         
         min-width: 25rem;
-        margin-top:10rem;
-        margin-bottom:3rem;
+        margin-top:9rem;
+        margin-bottom:9rem;
     }
 }
 
@@ -882,7 +913,7 @@ textarea.form__input {
    
         min-width: 50rem; 
         margin-top:15rem;
-        margin-bottom:8rem;
+        margin-bottom:15rem;
     }
 }
 
@@ -996,7 +1027,9 @@ textarea.form__input {
 
     background-attachment: 
         scroll,
-        scroll
+        scroll;
+    padding-top: auto;
+
 
 }
 
@@ -1007,7 +1040,8 @@ textarea.form__input {
             url("../images/parts/Herbst_halb.jpg");
         background-attachment:
             fixed,
-            fixed
+            fixed;
+        padding-top: auto;
         
     }
 }
@@ -1019,7 +1053,9 @@ textarea.form__input {
             url("../images/parts/Herbst.jpg");
         background-attachment:
             fixed,
-            fixed
+            fixed;
+        padding-top: 2rem;
+
     }
 }
 
