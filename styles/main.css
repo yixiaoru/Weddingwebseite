@@ -76,7 +76,7 @@ body {
 
 .button_band {
 
-    color: #014153;
+    color: #da471a;
     font-weight: bold;
 
 
@@ -141,6 +141,7 @@ textarea.form__input {
     width: 100%;
 }
 
+
 .form__input:focus {
     border: 0.125rem solid rgb(150, 150, 150);
     outline: none;
@@ -160,7 +161,7 @@ textarea.form__input {
     padding-bottom: 2rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 75%;
+    background-position: 57% 75%;
     background-image: url("../images/header/Ringtragen-halb.jpg");
     height: 100vh;
 }
@@ -276,7 +277,7 @@ textarea.form__input {
 
 @media (min-width: 400px) {
     .header__heading {
-        font-size: 4rem;
+        font-size: 3.8rem;
         padding-top: 10rem;
     }
 }
@@ -394,7 +395,7 @@ textarea.form__input {
 
 
 .heading--centered {
-    color: rgb(1, 65, 83);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: "Caveat";
 }
@@ -405,7 +406,7 @@ textarea.form__input {
     display: block;
     height: 0.1rem;
     width: 18rem;
-    background-color: rgb(1, 65, 83);
+    background-color: rgb(255, 255, 255);
     margin-top: 1.2rem;
     margin-left:auto;
     margin-right:auto;
@@ -626,7 +627,8 @@ textarea.form__input {
 
 
     background-image: 
-    linear-gradient(90deg,  rgba(179, 66, 18, 0.55),rgba(179, 66, 18, 0.55)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, transparent 10%, rgba(58, 58, 58, 0.25) 20%,rgba(56, 56, 56, 0.35) 80%,transparent 90%, rgba(0, 0, 0, 0.5) 100%),
+    /* linear-gradient(90deg,  rgba(82, 80, 80, 0.45),rgba(156, 126, 113, 0.45)), */
         url("../images/adventures/herst.jpg");
     background-attachment:
         scroll,
@@ -1034,7 +1036,7 @@ textarea.form__input {
 .parts__paragraph_day {
     margin: 0;
     font-size: 2rem;
-    color: #014153;
+    color: #ffffff;
     padding-top: 0.8rem;
     max-width: 35rem;
     text-align: center;
@@ -1045,7 +1047,7 @@ textarea.form__input {
 .parts__paragraph_hour {
     margin: 0;
     font-size: 2rem;
-    color: #014153;
+    color: #ffffff;
     padding-top: 0.8rem;
     max-width: 35rem;
     text-align: center;
@@ -1056,7 +1058,7 @@ textarea.form__input {
 .parts__paragraph_minute {
     margin: 0;
     font-size: 2rem;
-    color: #014153;
+    color: #ffffff;
     padding-top: 0.8rem;
     max-width: 35rem;
     text-align: center;
@@ -1067,7 +1069,7 @@ textarea.form__input {
 .parts__paragraph_second {
     margin: 0;
     font-size: 2rem;
-    color: #014153;
+    color: #ffffff;
     padding-top: 0.8rem;
     max-width: 35rem;
     text-align: center;
@@ -1104,7 +1106,7 @@ textarea.form__input {
 @media (min-width: 700px) {
     .parts {
         background-image: 
-        linear-gradient(90deg,  rgba(216, 213, 213, 0.35),rgba(216, 213, 213, 0.35)),
+        linear-gradient(90deg,  rgba(124, 124, 124, 0.35),rgba(197, 144, 46, 0.35)),
             url("../images/parts/Herbst_halb.jpg");
         background-attachment:
             fixed,
@@ -1117,7 +1119,7 @@ textarea.form__input {
 @media (min-width: 1600px) {
     .parts {
         background-image: 
-        linear-gradient(90deg,  rgba(216, 213, 213, 0.35),rgba(216, 213, 213, 0.35)),
+        linear-gradient(90deg,  rgba(124, 124, 124, 0.35),rgba(197, 144, 46, 0.35)),
             url("../images/parts/Herbst.jpg");
         background-attachment:
             fixed,
@@ -1177,7 +1179,7 @@ textarea.form__input {
     margin: 0;
     font-size: 1.5rem;
     padding-top: 3rem;
-    color: rgb(1, 65, 83);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: "Caveat";
 }
