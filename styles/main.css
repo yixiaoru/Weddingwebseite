@@ -1081,7 +1081,7 @@ textarea.form__input {
 .parts {
     /* #padding-bottom: 1.8rem; */
     background-image: 
-    linear-gradient(90deg,  rgba(253, 237, 237, 0.75),rgba(150, 150, 150, 0.75)),
+    linear-gradient(90deg,  rgba(253, 237, 237, 0.4),rgba(150, 150, 150, 0.4)),
         url("../images/parts/Herbst_mobil.jpg");
 
     background-size:
