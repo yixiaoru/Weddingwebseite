@@ -167,6 +167,18 @@ textarea.form__input {
     height: 100vh;
 }
 
+
+@media (min-width: 300px) {
+    .header {
+
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        background-position: auto auto, 57% 75%;
+        height: 100vh, 100vh;
+        background-image: linear-gradient(180deg,transparent 80%, rgba(0, 0, 0, 0.5) 100%), url("../images/header/Ringtragen-1400_700.jpg");
+    }
+}
+
 @media (min-width: 62em) {
     .header {
 
