@@ -435,7 +435,7 @@ textarea.form__input {
 .heading--top-box::after{
     content: "";
     display: block;
-    width: 20rem;
+    width: 26rem;
     height: 0.1rem;
     background-color: #FFFFFF;
     margin-left: auto;
