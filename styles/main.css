@@ -435,7 +435,7 @@ textarea.form__input {
 .heading--top-box::after{
     content: "";
     display: block;
-    width: 26rem;
+    width: 15rem;
     height: 0.1rem;
     background-color: #FFFFFF;
     margin-left: auto;
@@ -443,6 +443,18 @@ textarea.form__input {
     margin-top:1.3rem;
     box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 
+}
+
+@media (min-width: 360px) {
+    .heading--top-box::after{
+        width: 20rem;
+}
+}
+
+@media (min-width: 570px) {
+    .heading--top-box::after{
+        width: 26rem;
+}
 }
 
 
