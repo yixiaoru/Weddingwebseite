@@ -451,6 +451,25 @@ textarea.form__input {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: "Caveat";
+    padding-bottom: 2rem;
+}
+
+.heading--centered__countdown {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Caveat";
+    padding-bottom: 1rem;
+}
+
+.heading--centered__countdown::after {
+    content: "";
+    display: block;
+    height: 0.1rem;
+    width: 18rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.2rem;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
@@ -1082,6 +1101,22 @@ textarea.form__input {
     text-align: center;
     margin-left: auto;
     margin-right: auto; 
+}
+
+
+.countdown__paragraph {
+   
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: "Norican";
+    color: white;
+    padding-bottom: 1.5rem;
+    line-height: 1.4em;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 0.1rem;
+         
+    
 }
 
 
