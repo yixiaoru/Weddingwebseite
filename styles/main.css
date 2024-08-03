@@ -51,10 +51,41 @@ body {
 
 .button_container{
     display: flex;
-      justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
+
+.button_container_location{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.button_location {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    color: white;
+    padding: 0.75rem 0.75rem;
+    border-radius: 9999999px;
+    border: none;
+    background-color: #ED6A4E;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25); 
+    font-size:1rem
+}
+
+.button_location:hover {
+    text-decoration: underline;
+    background-color: #c95f47;
+}
+
 .button {
     -webkit-appearance: none;
     appearance: none;
@@ -390,6 +421,7 @@ textarea.form__input {
 
 }
 
+
 @media (min-width: 1700px) {
     .heading--top-box{
         text-align: center;
@@ -397,6 +429,19 @@ textarea.form__input {
         padding-top:2rem;
         padding-bottom:2rem;
 }
+
+}
+
+.heading--top-box::after{
+    content: "";
+    display: block;
+    width: 20rem;
+    height: 0.1rem;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1.3rem;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 
 }
 
@@ -1601,6 +1646,54 @@ textarea.form__input {
 }
 
 
+.skills__location-list {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-family: "Norican";
+    color: rgb(238, 108, 79);
+    line-height: 1.4em;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
+    list-style-type: disc;
+    list-style-position: outside
+}
+
+@media (min-width: 300px) {
+    .skills__location-list {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1.4rem;
+        
+    }
+}
+
+@media (min-width: 850px) {
+    .skills__location-list {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2rem;
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    .skills__location-list {
+        margin-left: 8rem;
+        margin-right: 8rem;
+        
+    }
+}
+
+.skills__location-list-item {
+    padding-bottom: 1rem;
+
+}
+
+
+
 
 
 .skills__card-container {
@@ -1711,7 +1804,7 @@ textarea.form__input {
 
 @media (min-width: 650px) {
     .skill__card-img_parken {
-        height: 35rem;
+        height: 23rem;
     }
 }
 
